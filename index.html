@@ -60,215 +60,204 @@
     </style>
   </head>
   <body class="bg-white text-gray-800 font-sans">
-    <!-- AOS Animate On Scroll JS -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init({
-          duration: 1000, // animation duration in ms 
-  //    body {
-//  overflow-x: hidden;
-// }
-        once: true, // only animate once while scrolling down
-      });
-    </script>
+      <!-- AOS Animate On Scroll JS -->
+      <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+      <script>
+          AOS.init({
+              duration: 1000, // animation duration in ms
+              //    body {
+              //  overflow-x: hidden;
+              // }
+              once: true, // only animate once while scrolling down
+          });
+      </script>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top py-3">
-      <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-          <img
-            src="assets/images/raghuram.jpg"
-            class="rounded-circle"
-            width="40"
-            height="40"
-            alt="Logo"
-          />
-          <span class="fw-bold">Raghuram Senthil Kumar</span>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse d-lg-flex justify-content-end"
-          style="visibility: visible"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav d-flex flex-row gap-4 align-items-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#community">CCA Roles</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#takeaway">Takeaways</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top py-3">
+          <div class="container">
+              <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                  <img src="assets/images/raghuram.jpg"
+                       class="rounded-circle"
+                       width="40"
+                       height="40"
+                       alt="Logo" />
+                  <span class="fw-bold">Raghuram Senthil Kumar</span>
+              </a>
+              <button class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNav">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-lg-flex justify-content-end"
+                   style="visibility: visible"
+                   id="navbarNav">
+                  <ul class="navbar-nav d-flex flex-row gap-4 align-items-center">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#about">About</a>
+                      </li>
 
-    <!-- Hero -->
-    <section id="home" class="hero-section d-flex">
-      <div id="tsparticles"></div>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#experience">Experience</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#community">CCA Roles</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#projects">Project</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#takeaway">Takeaways</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <section id="home" class="hero-section d-flex">
+          <div id="tsparticles"></div>
 
-      <!-- <div class="pattern-overlay">
-        <svg
-          class="wave parallax"
-          viewBox="0 0 1440 320"
-          preserveAspectRatio="none"
-        >
-          <path
-            class="wave1"
-            d="M0,160 C480,280 960,40 1440,160 L1440,320 L0,320 Z"
-            fill="#8b5cf6"
-            fill-opacity="0.1"
-          />
-          <path
-            class="wave2"
-            d="M0,200 C480,300 960,60 1440,200 L1440,320 L0,320 Z"
-            fill="#8b5cf6"
-            fill-opacity="0.05"
-          />
-        </svg>
-      </div> -->
+          <!-- <div class="pattern-overlay">
+          <svg
+            class="wave parallax"
+            viewBox="0 0 1440 320"
+            preserveAspectRatio="none"
+          >
+            <path
+              class="wave1"
+              d="M0,160 C480,280 960,40 1440,160 L1440,320 L0,320 Z"
+              fill="#8b5cf6"
+              fill-opacity="0.1"
+            />
+            <path
+              class="wave2"
+              d="M0,200 C480,300 960,60 1440,200 L1440,320 L0,320 Z"
+              fill="#8b5cf6"
+              fill-opacity="0.05"
+            />
+          </svg>
+        </div> -->
 
-      <!-- <div
-        class="social-icons d-none d-md-flex flex-column align-items-center justify-content-center"
-      >
-        <a href="https://github.com/RajapriyaDevHub" target="_blank"
-          ><i class="fab fa-github"></i
-        ></a>
-        <a href="https://linkedin.com/in/rajapriyamariappan" target="_blank"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-      </div> -->
-      <div class="container d-flex justify-content-center align-items-center">
-        <div
-          class="hero-content text-center"
-          data-aos="fade-up"
-          data-aos-duration="1200"
-        >
-          <h1 class="hero-heading typewriter mb-3">Hi, I'm Raghuram Senthil Kumar</h1>
-          <p class="hero-subtitle">
-            O-Level student from Yuhua Secondary
-School
-          </p>
+          <div class="container d-flex justify-content-center align-items-center">
+              <div class="hero-content text-center"
+                   data-aos="fade-up"
+                   data-aos-duration="1200">
+                  <h1 class="hero-heading typewriter mb-3 text-wrap text-break fs-5 fs-sm-4 fs-md-3 fs-lg-2 fs-xl-1">
+                      Hello, I'm Raghuram Senthil Kumar
+                  </h1>
 
-          <a href="#projects" class="btn btn-animated mt-4">My Research</a>
-        </div>
-      </div>
-    </section>
-    <section id="about" class="text-center pt-5 bg-[#F9F7F4]">
-      <h2 class="section-title">About Me</h2>
-      <div class="grid md:grid-cols-2 w-screen h-screen relative overflow-hidden">
-        <!-- Left Side with Image and Gradient -->
-        <div class="relative h-full w-full">
-          <img src="assets/images/raghuram.jpg" alt="Gallery 1"
-               class="absolute inset-0 object-cover w-full h-full z-0" />
-          
-        </div>
-    
-        <!-- Right Side with Text Content -->
-        <div class="flex flex-col justify-center items-start text-left px-6 py-8 z-20 bg-white backdrop-blur-sm">
-          <h2 class="text-xl font-bold text-gray-600 mb-4">
-            I am an O-Level student from Yuhua Secondary School with a strong interest in biochemistry.
-          </h2>
-          <p class="text-gray-500 text-xl font-semibold animate-fade-slide mb-4">
-            I am particularly fascinated by the intricate processes that take place at the molecular level and how they contribute to life and health.
-          </p>
-          <p class="text-gray-500 text-xl mb-4">
-            While biochemistry is my primary interest, I remain open-minded and eager to learn about all fields of science.
-          </p>
-          <p class="text-gray-500 text-xl">
-            The Common Science programme at Singapore Polytechnic feels like the ideal next step—an exciting launchpad where I can deepen my understanding.
-          </p>
-        </div>
-      </div>
-    </section>
-    
 
-    <section id="experience" class="text-center pt-5 px-4 w-full py-4">
-      <h2 class="section-title">Experiences</h2>
-    
-      <h3 class="text-3xl font-semibold text-white mb-4">Pre-Formulation Course</h3>
-    
-      <!-- Top Image Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-        <img src="assets/images/preformulation1.jpg" class="w-full h-64 object-cover rounded-lg shadow" alt="Image 1" />
-        <img src="assets/images/preformulation2.jpg" class="w-full h-64 object-cover rounded-lg shadow" alt="Image 2" />
-        <img src="assets/images/preformulation3.jpg" class="w-full h-64 object-cover rounded-lg shadow" alt="Image 3" />
-      </div>
-    
-      <!-- Bottom Image + Text -->
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-        <!-- Bottom Left Image -->
-        <img src="assets/images/preformualtion4.jpg" class="w-full h-80 object-cover rounded-lg shadow" alt="Image 4" />
-    
-        <!-- Bottom Right Text -->
-        <div class="bg-white p-6 rounded-lg shadow text-left h-80">
-          <p class="text-gray-700 text-lg leading-relaxed">
-            From this course, I gained a deeper understanding of <strong>API characterisation</strong> like solid state polymorphism, crystallinity.
-            I also learnt more skills in the <strong>biopharmaceutics classification system</strong> and about formulation strategies.
-            However, I am still in the process of looking into other courses in drug hunting to deepen my understanding of <strong>pharmaceutical science.</strong>
-          </p>
-        </div>
-      </div>
-    </section>
-    
-    <section id="experience" class="w-screen h-screen flex flex-col overflow-hidden py-4">
-      <!-- Heading -->
-      <div class="container mx-auto px-4 mb-5">
-      <div class="py-4 px-2">
-        <h3 class="text-3xl font-semibold text-white text-center mb-5">
-          Take a Look at My Research Notes for Pre-Formulation Course
-        </h3>
-      </div>
-    
-      <!-- Image row (takes remaining screen height) -->
-      <div class="flex-1 grid grid-cols-4 gap-2">
-        <img src="assets/images/notes1.jpg" class="w-full h-full object-cover" alt="Image 1" />
-        <img src="assets/images/notes2.jpg" class="w-full h-full object-cover" alt="Image 2" />
-        <img src="assets/images/notes3.jpg" class="w-full h-full object-cover" alt="Image 3" />
-        <img src="assets/images/notes4.jpg" class="w-full h-full object-cover" alt="Image 4" />
-      </div>
-      </div>
-    </section>
-    <section id="experience" class="w-screen h-screen  flex flex-col overflow-hidden py-4">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-2">
-          <h3 class="text-3xl font-semibold text-white">Biology Research Course</h3>
-        </div>
-        <p class=" mx-auto py-2 px-2 text-white">
-          To experience what it’s like being in a biology research team, I joined a course where I learned how to analyze biological experiments, evaluate raw data, and present findings professionally. I developed hands-on skills in scientific writing, data visualization, and clear communication within a team. I also learned how to create effective presentation slides to share information accurately and confidently.
-        </p>
-    <!-- <section id="experience" class="w-screen h-screen  flex flex-col overflow-hidden">
-     
-      <div class="py-4 px-2">
-        <h3 class="text-3xl font-semibold text-white text-center">
-          Biology Research Course
-        </h3>
-        <p class="text-center py-4 px-2">To experience what it’s like being in a biology research team, I joined a course where I learned how to analyze biological
-          experiments, evaluate raw data, and present findings professionally. I developed hands-on skills in scientific writing, data
-          visualization, and clear communication within a team. I also learned how to create effective presentation slides to share
-          information accurately and confidently.</p>-->
-          <div class="text-center mb-5"> 
-          <a href="https://sgmoe-
+                  <p class="hero-subtitle">
+                      O-Level student from Yuhua Secondary
+                      School
+                  </p>
+
+                  <a href="#projects" class="btn btn-animated mt-4">My Research</a>
+              </div>
+          </div>
+      </section>
+
+
+
+
+      <section id="about" class="text-center pt-5">
+          <h2 class="section-title">About Me</h2>
+          <div class="grid md:grid-cols-2 min-h-screen w-full relative overflow-hidden">
+
+              <!-- Left Side with Image and Gradient -->
+              <div class="relative w-full h-64 md:h-auto">
+                  <img src="assets/images/raghuram.jpg" alt="Gallery 1"
+                       class="absolute inset-0 object-cover w-full h-full z-0" />
+              </div>
+
+              <!-- Right Side with Text Content -->
+              <div class="flex flex-col justify-center items-start text-left px-4 sm:px-6 md:px-10 py-8 z-20 bg-white backdrop-blur-sm">
+                  <h2 class="text-lg sm:text-xl font-bold text-gray-600 mb-4">
+                      I am an O-Level student from Yuhua Secondary School with a strong interest in biochemistry.
+                  </h2>
+                  <p class="text-gray-500 text-base sm:text-lg font-semibold animate-fade-slide mb-4">
+                      I am particularly fascinated by the intricate processes that take place at the molecular level and how they contribute to life and health.
+                  </p>
+                  <p class="text-gray-500 text-base sm:text-lg mb-4">
+                      While biochemistry is my primary interest, I remain open-minded and eager to learn about all fields of science.
+                  </p>
+                  <p class="text-gray-500 text-base sm:text-lg">
+                      The Common Science programme at Singapore Polytechnic feels like the ideal next step—an exciting launchpad where I can deepen my understanding.
+                  </p>
+              </div>
+          </div>
+      </section>
+
+
+
+      <section id="experience" class="text-center pt-5 px-4 w-full py-4 bg-gray-100">
+          <h2 class="section-title mb-8 text-3xl font-bold">Experiences</h2>
+
+          <h3 class="text-2xl sm:text-3xl font-semibold text-gray-900 mb-6 text-white">Pre-Formulation Course</h3>
+
+          <!-- Top Image Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+              <img src="assets/images/preformulation1.jpg" alt="Image 1"
+                   class="w-full h-48 sm:h-64 object-cover rounded-lg shadow" />
+              <img src="assets/images/preformulation2.jpg" alt="Image 2"
+                   class="w-full h-48 sm:h-64 object-cover rounded-lg shadow" />
+              <img src="assets/images/preformulation3.jpg" alt="Image 3"
+                   class="w-full h-48 sm:h-64 object-cover rounded-lg shadow" />
+          </div>
+
+          <!-- Bottom Image + Text -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch max-w-5xl mx-auto">
+              <!-- Bottom Left Image -->
+              <img src="assets/images/preformualtion4.jpg" alt="Image 4"
+                   class="w-full object-cover rounded-lg shadow h-full md:max-h-80 lg:max-h-72 xl:max-h-64 mx-auto" />
+
+              <!-- Bottom Right Text -->
+              <div class="bg-white p-6 rounded-lg shadow text-left flex flex-col justify-center h-full md:max-h-80 lg:max-h-72 xl:max-h-64 mx-auto">
+                  <p class="text-gray-700 text-base sm:text-lg leading-relaxed">
+                      From this course, I gained a deeper understanding of <strong>API characterisation</strong> like solid state polymorphism, crystallinity.
+                      I also learnt more skills in the <strong>biopharmaceutics classification system</strong> and about formulation strategies.
+                      However, I am still in the process of looking into other courses in drug hunting to deepen my understanding of <strong>pharmaceutical science.</strong>
+                  </p>
+              </div>
+          </div>
+
+
+      </section>
+
+
+
+
+      <section id="experience2" class="w-full min-h-screen flex flex-col overflow-hidden py-4 bg-gray-900">
+          <div class="container mx-auto px-4 mb-5">
+              <div class="py-4 px-2">
+                  <h3 class="text-2xl sm:text-3xl font-semibold text-white text-center mb-5">
+                      Take a Look at My Research Notes for Pre-Formulation Course
+                  </h3>
+              </div>
+
+              <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-2 md:h-[50vh]">
+                  <img src="assets/images/notes1.jpg" class="w-full h-full object-cover rounded-lg" alt="Image 1" />
+                  <img src="assets/images/notes2.jpg" class="w-full h-full object-cover rounded-lg" alt="Image 2" />
+                  <img src="assets/images/notes3.jpg" class="w-full h-full object-cover rounded-lg" alt="Image 3" />
+                  <img src="assets/images/notes4.jpg" class="w-full h-full object-cover rounded-lg" alt="Image 4" />
+              </div>
+          </div>
+      </section>
+
+
+
+      <section id="experience" class="w-screen h-screen  flex flex-col overflow-hidden py-4">
+          <div class="container mx-auto px-4">
+              <div class="text-center mb-2">
+                  <h3 class="text-3xl font-semibold text-white">Biology Research Course</h3>
+              </div>
+              <p class=" mx-auto py-2 px-2 text-white">
+                  To experience what it’s like being in a biology research team, I joined a course where I learned how to analyze biological experiments, evaluate raw data, and present findings professionally. I developed hands-on skills in scientific writing, data visualization, and clear communication within a team. I also learned how to create effective presentation slides to share information accurately and confidently.
+              </p>
+              <div class="text-center mb-5">
+                  <a href="https://sgmoe-
           my.sharepoint.com/:p:/r/personal/ragh
           uram_senthil_kumar_students_edu_sg
           /Documents/Presentation%20templat
@@ -276,403 +265,386 @@ School
           %20Lifearc%20to%20share.potx?
           d=w8680b10d4b1d447b98b2701b3395d
           6c1&csf=1&web=1&e=K8pIIv" target="_blank" rel="noopener noreferrer">
-            See me Presenting
-          </a>
-        </div>
-      </div>
-    
-      <!-- Image row (takes remaining screen height) -->
-      <div class="flex-1 grid grid-cols-2 gap-2 mt-2">
-        <img src="assets/images/bio1.jpg" class="w-full h-full object-contain" alt="Image 1" />
-        <img src="assets/images/bio2.jpg" class="w-full h-full object-contain" alt="Image 2" />
-      </div>
-    </section>
-    <section id="competition" class="text-center pt-5  ">
-      <h2 class="section-title ">Competition</h2>
-      <div class="grid md:grid-cols-2 w-screen h-screen relative overflow-hidden" data-aos="fade-left">
-        <!-- Left Side with Image and Gradient -->
-        <div class="relative h-full w-full mt-4 ">
-          <img src="assets/images/cert1.jpg" alt="Gallery 1"
-               class="absolute inset-0 object-contain w-full h-full z-0" />
-
-        </div>
-    
-        <!-- Right Side with Text Content -->
-        <div class="flex flex-col justify-center items-start text-left px-6 py-8 z-20 bg-white backdrop-blur-sm">
-          <h2 class="text-3xl font-bold text-gray-800 mb-4">
-           Crystal Growing
-          </h2>
-          <p class="text-gray-500 text-xl font-semibold animate-fade-slide mb-4">
-            
-
-My teammate and I were blessed enough to be able to take part in the National Crystal Growing Competition in hopes of furthering our understanding of the concept of crystallisation and its various intricate processes required to achieve a perfectly shaped crystal. This was a poster made by us to show our understanding and our crystal
-          </p>
-          
-        </div>
-      </div>
-    
-    
-      <div class="grid md:grid-cols-2 w-screen h-screen overflow-hidden " data-aos="fade-right">
-        
-        <!-- Left Side: Text Content -->
-        <div class="flex flex-col justify-center items-start text-left px-6 py-8 z-20 backdrop-blur-sm bg-white">
-          <h2 class="text-3xl font-bold text-gray-800 mb-4">
-            SJBO
-          </h2>
-          <p class="text-gray-600 text-xl font-semibold animate-fade-slide mb-4">
-            I was given the unique opportunity to participate in the national biology olympiad. I was not only able to learn about biochemistry, but it also offered me a comprehensive foundation in various scientific disciplines, allowing me to explore my specific interests in a topic. I consider myself a winner, regardless, because I gained new experiences and new knowledge 
-          </p>
-        </div>
-    
-        <!-- Right Side: Image and Gradient Overlay -->
-        <div class="relative h-full w-full">
-          <img src="assets/images/cert2.jpg" alt="Crystal Poster"
-               class="absolute inset-0 object-contain w-full h-full z-0" />
-
-        </div>
-    
-      </div>
-
-     
-</section>
-<section class="py-4">
-  <div class="container mx-auto px-4 py-4">
-    <div class="text-center mb-5">
-      <h3 class="text-3xl font-semibold text-white">
-        My Research Notes for Bio-Olympiad
-      </h3>
-    </div>
-    <p class=" mx-auto px-2 py-2 text-white">
-      To achieve a deeper and fuller understanding of the various topics in the SJBO, I took my time to research and find the different topics that could be tested in the SJBO paper, and watched videos and read articles so that I could ace the paper!
-    </p>
-  </div>
-
-  <!-- Image row (takes remaining screen height) -->
-  <div class="flex-1 grid grid-cols-4 gap-2 text-center mt-6 container mx-auto px-4">
-    <!-- Image 1 -->
-    <div class="flex flex-col h-full">
-      <img src="assets/images/bionotes1.jpg" class="w-full h-full object-cover flex-1" alt="Cells" />
-      <p class="mt-2 text-sm text-white">Cells</p>
-    </div>
-
-    <!-- Image 2 -->
-    <div class="flex flex-col h-full">
-      <img src="assets/images/bionotes2.jpg" class="w-full h-full object-cover flex-1" alt="Biodiversity" />
-      <p class="mt-2 text-sm text-white">Biodiversity</p>
-    </div>
-
-    <!-- Image 3 -->
-    <div class="flex flex-col h-full">
-      <img src="assets/images/bionotes3.jpg" class="w-full h-full object-cover flex-1" alt="Stem cells" />
-      <p class="mt-2 text-sm text-white">Stem cells</p>
-    </div>
-
-    <!-- Image 4 -->
-    <div class="flex flex-col h-full">
-      <img src="assets/images/bionotes4.jpg" class="w-full h-full object-cover flex-1" alt="Innate immune System" />
-      <p class="mt-2 text-sm text-white">Innate immune System</p>
-    </div>
-  </div>
-</section>
-
-
-<section>
-<div class="grid md:grid-cols-2 w-screen h-screen overflow-hidden  py-6" data-aos="fade-right">
-        
-  <!-- Left Side: Text Content -->
-  <div class="flex flex-col justify-center items-start text-left px-6 py-8 z-20 backdrop-blur-sm bg-white">
-    <h2 class="text-3xl font-bold text-gray-800 mb-4">
-      Building Terrariums
-    </h2>
-    <p class="text-gray-600 text-xl font-semibold animate-fade-slide mb-4">
-      To deepen my understanding of the intricate chemical processes
-occurring in a plant, I challenged myself to build the perfect
-terrarium where the ecosystem thrives. Placing plants into the soil
-and watering them may sound simple. However, for the plants to
-successfully thrive, they require careful planning and accuracy. It
-also requires a resilient mindset as you would need to go through
-many failed terrariums before you finally figure out the perfect
-conditions. I also studied the plant’s optimal conditions to take
-the best steps in this challenge.
-</p>
-<p>This experience contributed to my interest in biochemistry as I
-  got to understand how the plants respond to different
-  environments and their different chemical processes!</p>
-
-  <div class="text-center">
-    <a href="https://drive.google.com/file/d/1Tv
-    x8LVNPtB6U9DkR3J5k4u_ZIuq4ve
-    _k/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
-      See me Making Terrarium
-    </a>
-  </div>
-  </div>
-
-  <!-- Right Side: Image and Gradient Overlay -->
-  <div class="relative h-full w-full">
-    <img src="assets/images/endresult.jpg" alt="Crystal Poster"
-         class="absolute inset-0 object-cover w-full h-full z-0" />
-    <div class="absolute inset-0  mix-blend-multiply z-10"></div>
-  </div>
-
-</div>
-
-
-
-
-
-
-    </section>
-    <section id="community" class="py-4">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-5">
-          <h3 class="text-3xl font-semibold text-white">NYAA and Community Service</h3>
-        </div>
-    
-        <div class="mb-6 mx-auto px-4">
-          <p>
-            I pursued the Silver National Youth Achievement Award to challenge myself and expand my horizons beyond the classroom. It pushed me out of my comfort zone and taught me invaluable skills like teamwork, adaptability, and communication.
-          </p>
-          <p class="mt-4">
-            One memorable experience was preparing ingredients with my team at Willing Hearts, where even simple tasks like cutting vegetables required coordination and trust.
-            Balancing NYAA activities with school also helped me develop strong time management skills through careful planning and prioritization.
-          </p>
-        </div>
-        <div class="grid grid-cols-2 gap-2 w-screen">
-          <!-- Image 1 -->
-          <div class="flex items-center justify-center">
-            <img src="assets/images/volunteer1.jpg" class="w-full object-contain max-h-screen" alt="Image 1" />
-          </div>
-        
-          <!-- Image 2 -->
-          <div class="flex items-center justify-center">
-            <img src="assets/images/volunteer2.jpg" class="w-full object-contain max-h-screen" alt="Image 2" />
-          </div>
-        </div>
-        
-      </div>
-    </section>
-    
-    
-    <!-- Education -->
-    <section id="education" class="py-5 bg-light">
-      <div class="container">
-        <div class="text-center mb-5" data-aos="fade-up">
-          <h2 class="section-title d-inline-block">Leader Ship Roles</h2>
-        </div>
-
-        <div
-          class="d-flex flex-wrap justify-content-center gap-4"
-          data-aos="fade-up"
-        >
-          <!-- Card 1 -->
-          <div
-            class="edu-card-box p-4 bg-white shadow-sm rounded-4 text-center"
-          >
-            <div class=" mb-3">
-              
-  <img src="assets/images/awards1.jpg" class="w-full h-full object-contain" alt="Image 1" />
-            </div>
-            <h5 class="text-dark mb-2">Through my continuous self-growth spirit and unwavering
-              commitment towards NCC, I rose through the ranks and
-              ultimately reached the position of Unit sergeant major
-              and the rank of MSG. I even managed to get the
-              Outstanding Cadet Award (OCA). </h5>
-            
+                      See me Presenting
+                  </a>
+              </div>
           </div>
 
-          <!-- Card 2 -->
-          <div
-            class="edu-card-box p-4 bg-white shadow-sm rounded-4 text-center"
-          >
-            <div class=" mb-3">
-              <img src="assets/images/awards2.jpg" class="w-full h-full object-contain" alt="Image 2" />
-            </div>
-            <h5 class="text-dark mb-2">This was during National Day in Jurong Spring
-              CC, where I was nominated to be the
-              commander for that ceremony</h5>
-            
+          <!-- Image row (takes remaining screen height) -->
+          <div class="flex-1 grid grid-cols-2 gap-2 mt-2">
+              <img src="assets/images/bio1.jpg" class="w-full h-full object-contain" alt="Image 1" />
+              <img src="assets/images/bio2.jpg" class="w-full h-full object-contain" alt="Image 2" />
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- Projects -->
-    <section id="projects" class="py-3">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-5" data-aos="fade-up">
-          <h2 class="section-title"> My Silvia Project</h2>
-        </div>
-    
-        <div class="mb-6 mx-auto px-4">
-          <p>
-            Our Project was about promoting a healthy lifestyle, both physically and mentally, for the elders. On day 1, we did seated exercises so that the elders could get their blood pumping! It was an activity that was outside my comfort zone, as we were working with strangers. However, this boosted our confidence as we were able to effectively communicate and have an overall accomplished day with them!
-          </p>
-          <p class="mt-4">
-            On day 2, we decided to build terrariums as a form of entertainment. I was the instructor for that day, and despite feeling uneasy about it, I pushed through knowing that it was an important experience for me. It not only provided me with an experience I can cherish, but also an experience that boosted my communication skills, which is crucial in the workforce or in a team.
-          </p>
-          <div class ="text-center">
-          <a href="https://www.instagram.com/p/DDeWcpVoOw9/?
+      </section>
+
+
+      <section id="competition" class="text-center pt-5 px-4 md:px-8 lg:px-16">
+          <h2 class="section-title mb-8">Competition</h2>
+
+          <!-- First row -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mb-12 items-stretch" data-aos="fade-left">
+              <!-- Image -->
+              <div class="w-full max-w-[600px] mx-auto md:mx-0 h-[400px] bg-white">
+                  <img src="assets/images/cert1.jpg"
+                       alt="Gallery 1"
+                       class="w-full h-full object-contain " />
+              </div>
+
+              <!-- Text -->
+              <div class="flex flex-col justify-center text-left px-4 py-6 bg-white backdrop-blur-sm  shadow-lg max-w-[600px] mx-auto md:mx-0 h-[400px]">
+                  <h2 class="text-2xl font-bold text-gray-800 mb-3">Crystal Growing</h2>
+                  <p class="text-gray-600 text-base font-medium leading-relaxed overflow-y-auto">
+                      My teammate and I were blessed enough to be able to take part in the National Crystal Growing Competition in hopes of furthering our understanding of the concept of crystallisation and its various intricate processes required to achieve a perfectly shaped crystal. This was a poster made by us to show our understanding and our crystal.
+                  </p>
+              </div>
+          </div>
+
+          <!-- Second row -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 items-stretch" data-aos="fade-right">
+              <!-- Text -->
+              <div class="flex flex-col justify-center text-left px-4 py-6 bg-white backdrop-blur-sm  shadow-lg max-w-[600px] mx-auto md:mx-0 h-[400px]">
+                  <h2 class="text-2xl font-bold text-gray-800 mb-3">SJBO</h2>
+                  <p class="text-gray-600 text-base font-medium leading-relaxed overflow-y-auto">
+                      I was given the unique opportunity to participate in the national biology olympiad. I was not only able to learn about biochemistry, but it also offered me a comprehensive foundation in various scientific disciplines, allowing me to explore my specific interests in a topic. I consider myself a winner, regardless, because I gained new experiences and new knowledge.
+                  </p>
+              </div>
+
+              <!-- Image -->
+              <div class="w-full max-w-[600px] mx-auto md:mx-0 h-[400px] bg-white">
+                  <img src="assets/images/cert2.jpg"
+                       alt="SJBO Certificate"
+                       class="w-full h-full object-contain  " />
+              </div>
+          </div>
+      </section>
+
+
+      <section class="w-full min-h-screen flex flex-col overflow-hidden py-4 bg-gray-900">
+          <div class="container mx-auto px-4 mb-5">
+              <div class="py-4 px-2">
+                  <h3 class="text-2xl sm:text-3xl font-semibold text-white text-center mb-5">
+                      My Research Notes for Bio-Olympiad
+                  </h3>
+              </div>
+              <p class="mx-auto px-2 py-2 text-white max-w-3xl text-center mb-6">
+                  To achieve a deeper and fuller understanding of the various topics in the SJBO, I took my time to research and find the different topics that could be tested in the SJBO paper, and watched videos and read articles so that I could ace the paper!
+              </p>
+
+              <!-- Grid with height defined on container, images fill their cell -->
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-2 md:h-[50vh]">
+                  <div>
+                      <img src="assets/images/bionotes1.jpg" alt="Cells" class="w-full h-full object-cover rounded-lg" />
+                      <p class="mt-2 text-sm text-white text-center">Cells</p>
+                  </div>
+                  <div>
+                      <img src="assets/images/bionotes2.jpg" alt="Biodiversity" class="w-full h-full object-cover rounded-lg" />
+                      <p class="mt-2 text-sm text-white text-center">Biodiversity</p>
+                  </div>
+                  <div>
+                      <img src="assets/images/bionotes3.jpg" alt="Stem Cells" class="w-full h-full object-cover rounded-lg" />
+                      <p class="mt-2 text-sm text-white text-center">Stem Cells</p>
+                  </div>
+                  <div>
+                      <img src="assets/images/bionotes4.jpg" alt="Innate Immune System" class="w-full h-full object-cover rounded-lg" />
+                      <p class="mt-2 text-sm text-white text-center">Innate Immune System</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <section class="w-full min-h-screen py-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 w-full h-full overflow-hidden">
+              <!-- Left Side: Text Content -->
+              <div class="flex flex-col justify-center items-start text-left px-6 py-8 bg-white z-20">
+                  <h2 class="text-3xl font-bold text-gray-800 mb-4">
+                      Building Terrariums
+                  </h2>
+                  <p class="text-gray-600 text-xl font-semibold mb-4 sm:text-xl">
+                      To deepen my understanding of the intricate chemical processes
+                      occurring in a plant, I challenged myself to build the perfect
+                      terrarium where the ecosystem thrives. Placing plants into the soil
+                      and watering them may sound simple. However, for the plants to
+                      successfully thrive, they require careful planning and accuracy. It
+                      also requires a resilient mindset as you would need to go through
+                      many failed terrariums before you finally figure out the perfect
+                      conditions. I also studied the plant’s optimal conditions to take
+                      the best steps in this challenge.
+                  </p>
+                  <p class="text-gray-600 mb-6 text-xl sm:text-xl">
+                      This experience contributed to my interest in biochemistry as I
+                      got to understand how the plants respond to different
+                      environments and their different chemical processes!
+                  </p>
+                  <div>
+                      <a href="https://drive.google.com/file/d/1Tvx8LVNPtB6U9DkR3J5k4u_ZIuq4ve_k/view?usp=drivesdk"
+                         target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline font-semibold">
+                          See me Making Terrarium
+                      </a>
+                  </div>
+              </div>
+
+              <!-- Right Side: Image -->
+              <div class="relative w-full h-64 sm:h-96 md:h-auto">
+                  <img src="assets/images/endresult.jpg"
+                       alt="Terrarium Result"
+                       class="absolute inset-0 w-full h-full object-cover" />
+                  <div class="absolute inset-0 mix-blend-multiply bg-black opacity-20 pointer-events-none"></div>
+              </div>
+          </div>
+      </section>
+
+
+      <section id="community" class="py-4">
+          <div class="container mx-auto px-4">
+              <div class="text-center mb-5">
+                  <h3 class="text-3xl font-semibold text-white">NYAA and Community Service</h3>
+              </div>
+
+              <div class="mb-6 mx-auto px-4">
+                  <p>
+                      I pursued the Silver National Youth Achievement Award to challenge myself and expand my horizons beyond the classroom. It pushed me out of my comfort zone and taught me invaluable skills like teamwork, adaptability, and communication.
+                  </p>
+                  <p class="mt-4">
+                      One memorable experience was preparing ingredients with my team at Willing Hearts, where even simple tasks like cutting vegetables required coordination and trust.
+                      Balancing NYAA activities with school also helped me develop strong time management skills through careful planning and prioritization.
+                  </p>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 max-w-5xl mx-auto">
+                  <!-- Image 1 -->
+                  <div class="flex items-center justify-center bg-white">
+                      <img src="assets/images/volunteer1.jpg"
+                           alt="Image 1"
+                           class="w-full max-h-96 sm:max-h-[28rem] object-contain rounded-lg" />
+                  </div>
+
+                  <!-- Image 2 -->
+                  <div class="flex items-center justify-center bg-white">
+                      <img src="assets/images/volunteer2.jpg"
+                           alt="Image 2"
+                           class="w-full max-h-96 sm:max-h-[28rem] object-contain rounded-lg" />
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <!-- Education -->
+      <section id="education" class="py-5 bg-light">
+          <div class="container">
+              <div class="text-center mb-5" data-aos="fade-up">
+                  <h2 class="section-title d-inline-block">Leader Ship Roles</h2>
+              </div>
+
+              <div class="d-flex flex-wrap justify-content-center gap-4"
+                   data-aos="fade-up">
+                  <!-- Card 1 -->
+                  <div class="edu-card-box p-4 bg-white shadow-sm rounded-4 text-center">
+                      <div class=" mb-3">
+
+                          <img src="assets/images/awards1.jpg" class="w-full h-full object-contain" alt="Image 1" />
+                      </div>
+                      <h5 class="text-dark mb-2">
+                          Through my continuous self-growth spirit and unwavering
+                          commitment towards NCC, I rose through the ranks and
+                          ultimately reached the position of Unit sergeant major
+                          and the rank of MSG. I even managed to get the
+                          Outstanding Cadet Award (OCA).
+                      </h5>
+
+                  </div>
+
+                  <!-- Card 2 -->
+                  <div class="edu-card-box p-4 bg-white shadow-sm rounded-4 text-center">
+                      <div class=" mb-3">
+                          <img src="assets/images/awards2.jpg" class="w-full h-full object-contain" alt="Image 2" />
+                      </div>
+                      <h5 class="text-dark mb-2">
+                          This was during National Day in Jurong Spring
+                          CC, where I was nominated to be the
+                          commander for that ceremony
+                      </h5>
+
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Projects -->
+      <section id="projects" class="py-3">
+          <div class="container mx-auto px-4">
+              <div class="text-center mb-5" data-aos="fade-up">
+                  <h2 class="section-title"> My Silvia Project</h2>
+              </div>
+
+              <div class="mb-6 mx-auto px-4">
+                  <p>
+                      Our Project was about promoting a healthy lifestyle, both physically and mentally, for the elders. On day 1, we did seated exercises so that the elders could get their blood pumping! It was an activity that was outside my comfort zone, as we were working with strangers. However, this boosted our confidence as we were able to effectively communicate and have an overall accomplished day with them!
+                  </p>
+                  <p class="mt-4">
+                      On day 2, we decided to build terrariums as a form of entertainment. I was the instructor for that day, and despite feeling uneasy about it, I pushed through knowing that it was an important experience for me. It not only provided me with an experience I can cherish, but also an experience that boosted my communication skills, which is crucial in the workforce or in a team.
+                  </p>
+                  <div class="text-center">
+                      <a href="https://www.instagram.com/p/DDeWcpVoOw9/?
           igsh=ZWd6M3MxMGk0ZTh5" target="_blank" rel="noopener noreferrer">
-          See what others have shared about us on Instagram.
-          </a>
-        </div>
-        </div>
-    
-        <!-- Grid container for the images -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          <!-- Card 1 -->
-          <div class="edu-card-box p-4 bg-white shadow-sm rounded-lg text-center">
-            <img src="assets/images/proj1.jpg" class="w-full h-48 object-contain mx-auto" alt="Project 1" />
+                          See what others have shared about us on Instagram.
+                      </a>
+                  </div>
+              </div>
+
+              <!-- Grid container for the images -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                  <!-- Card 1 -->
+                  <div class="edu-card-box p-4 bg-white shadow-sm rounded-lg text-center">
+                      <img src="assets/images/proj1.jpg" class="w-full h-48 object-contain mx-auto" alt="Project 1" />
+                  </div>
+
+                  <!-- Card 2 -->
+                  <div class="edu-card-box p-4 bg-white shadow-sm rounded-lg text-center">
+                      <img src="assets/images/proj2.jpg" class="w-full h-48 object-contain mx-auto" alt="Project 2" />
+                  </div>
+
+                  <!-- Card 3 -->
+                  <div class="edu-card-box p-4 bg-white shadow-sm rounded-lg text-center">
+                      <img src="assets/images/proj3.jpg" class="w-full h-48 object-contain mx-auto" alt="Project 3" />
+                  </div>
+              </div>
           </div>
-    
-          <!-- Card 2 -->
-          <div class="edu-card-box p-4 bg-white shadow-sm rounded-lg text-center">
-            <img src="assets/images/proj2.jpg" class="w-full h-48 object-contain mx-auto" alt="Project 2" />
+      </section>
+
+      <section id="takeaway" class="py-3 bg-white">
+          <div class="container mx-auto px-4">
+              <div class="text-center mb-5" data-aos="fade-up">
+                  <h2 class="section-title text-gray-800"> Key Takeaways</h2>
+              </div>
+              <!-- 3-Image Grid -->
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+                  <img src="assets/images/img1.jpg" class="w-full h-64 object-contain rounded-lg shadow" alt="Image 1" />
+                  <img src="assets/images/img2.jpg" class="w-full h-64 object-contain rounded-lg shadow" alt="Image 2" />
+                  <img src="assets/images/img3.jpg" class="w-full h-64 object-contain rounded-lg shadow" alt="Image 3" />
+              </div>
+
+              <!-- Paragraph Text -->
+              <div class=" mx-auto  mb-6  px-4">
+                  <p class=" text-gray-700 ">
+                      Having served as a leader for quite some time, the journey was
+                      filled with highs and lows. However, through that, it has taught
+                      me a valuable skill of problem-solving. This skill will allow me not
+                      only to figure out solutions but also to work as a team effectively.
+                  </p>
+                  <p class="mt-4  text-gray-700">
+                      This will be highly beneficial as it is crucial to be able to have
+                      teamwork amongst the teammates for the group to achieve
+                      success. Moreover, it has also further developed my leadership
+                      capabilities and given me new ideas to contribute to my CCA. This
+                      has boosted my confidence and impacted my mindset as a
+                      leader.
+                  </p>
+              </div>
+
           </div>
-    
-          <!-- Card 3 -->
-          <div class="edu-card-box p-4 bg-white shadow-sm rounded-lg text-center">
-            <img src="assets/images/proj1.jpg" class="w-full h-48 object-contain mx-auto" alt="Project 3" />
+      </section>
+
+
+
+      <!-- Contact -->
+      <section id="contact" class="py-3 text-center">
+          <div class="container">
+              <!-- Heading -->
+              <div class="text-center mb-4" data-aos="fade-up">
+                  <h2 class="section-title d-inline-block">Contact</h2>
+              </div>
+
+              <!-- Intro text -->
+              <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">
+                  Let's collaborate! Reach out via
+                  <!-- <a
+                  href="mailto:rajapriyamariappan@gmail.com"
+                  class="text-purple-600 fw-semibold"
+                  >email</a
+                >,
+                <a
+                  href="https://linkedin.com/in/rajapriyamariappan"
+                  target="_blank"
+                  class="text-purple-600 fw-semibold"
+                  >Instagram</a
+                > -->
+              </p>
+
+
           </div>
-        </div>
-      </div>
-    </section>
-    
-    <section id="takeaway" class="py-3 bg-white">
-      <div class="container mx-auto px-4">
-        <div class="text-center mb-5" data-aos="fade-up">
-          <h2 class="section-title text-gray-800"> Key Takeaways</h2>
-        </div>
-        <!-- 3-Image Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-6">
-          <img src="assets/images/img1.jpg" class="w-full h-64 object-contain rounded-lg shadow" alt="Image 1" />
-          <img src="assets/images/img2.jpg" class="w-full h-64 object-contain rounded-lg shadow" alt="Image 2" />
-          <img src="assets/images/img3.jpg" class="w-full h-64 object-contain rounded-lg shadow" alt="Image 3" />
-        </div>
-    
-        <!-- Paragraph Text -->
-        <div class=" mx-auto  mb-6  px-4">
-          <p class=" text-gray-700 ">
-            Having served as a leader for quite some time, the journey was
-filled with highs and lows. However, through that, it has taught
-me a valuable skill of problem-solving. This skill will allow me not
-only to figure out solutions but also to work as a team effectively.</p>
-            <p class="mt-4  text-gray-700">
-This will be highly beneficial as it is crucial to be able to have
-teamwork amongst the teammates for the group to achieve
-success. Moreover, it has also further developed my leadership
-capabilities and given me new ideas to contribute to my CCA. This
-has boosted my confidence and impacted my mindset as a
-leader. 
-          </p>
-        </div>
-    
-      </div>
-    </section>
-    
-          
-    
-    <!-- Contact -->
-    <section id="contact" class="py-3 text-center">
-      <div class="container">
-        <!-- Heading -->
-        <div class="text-center mb-4" data-aos="fade-up">
-          <h2 class="section-title d-inline-block">Contact</h2>
-        </div>
+      </section>
 
-        <!-- Intro text -->
-        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">
-          Let's collaborate! Reach out via
-          <!-- <a
-            href="mailto:rajapriyamariappan@gmail.com"
-            class="text-purple-600 fw-semibold"
-            >email</a
-          >,
-          <a
-            href="https://linkedin.com/in/rajapriyamariappan"
-            target="_blank"
-            class="text-purple-600 fw-semibold"
-            >Instagram</a
-          > -->
-        </p>
+      <!-- Footer -->
+      <footer class="footer bg-dark text-white pt-5 pb-3">
+          <div class="container">
+              <div class="row align-items-start">
+                  <!-- Left Column -->
+                  <div class="col-md-6 mb-4">
+                      <h5 class="fw-bold text-uppercase">Raghuram Senthil Kumar</h5>
+                      <p class="small mb-0">
+                          O-level Student from Yuhua Secondary Schools
+                      </p>
+                  </div>
 
-        
-      </div>
-    </section>
+                  <!-- Right Column -->
+                  <div class="col-md-6 mb-4 text-md-end text-start">
+                      <h6 class="fw-bold text-uppercase">Social</h6>
+                      <div class="d-flex gap-3 justify-content-md-end justify-content-start mt-2">
+                          <!-- <a
+                          href="https://linkedin.com/in/rajapriyamariappan"
+                          target="_blank"
+                          class="text-white fs-5"
+                          ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                        <a
+                          href="https://github.com/RajapriyaDevHub"
+                          target="_blank"
+                          class="text-white fs-5"
+                          ><i class="fab fa-github"></i
+                        ></a> -->
+                      </div>
+                  </div>
+              </div>
 
-    <!-- Footer -->
-    <footer class="footer bg-dark text-white pt-5 pb-3">
-      <div class="container">
-        <div class="row align-items-start">
-          <!-- Left Column -->
-          <div class="col-md-6 mb-4">
-            <h5 class="fw-bold text-uppercase">Raghuram Senthil Kumar</h5>
-            <p class="small mb-0">
-              O-level Student from Yuhua Secondary Schools
-            </p>
+              <hr class="border-light" />
+              <div class="text-center small">© Copyright 2025.</div>
           </div>
+      </footer>
+      <button id="backToTop" title="Back to top">
+          <i class="fas fa-arrow-up"></i>
+      </button>
 
-          <!-- Right Column -->
-          <div class="col-md-6 mb-4 text-md-end text-start">
-            <h6 class="fw-bold text-uppercase">Social</h6>
-            <div
-              class="d-flex gap-3 justify-content-md-end justify-content-start mt-2"
-            >
-              <!-- <a
-                href="https://linkedin.com/in/rajapriyamariappan"
-                target="_blank"
-                class="text-white fs-5"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-              <a
-                href="https://github.com/RajapriyaDevHub"
-                target="_blank"
-                class="text-white fs-5"
-                ><i class="fab fa-github"></i
-              ></a> -->
-            </div>
-          </div>
-        </div>
+      <script>
+          window.addEventListener("scroll", function () {
+              const wave = document.querySelector(".wave");
+              const scrollY = window.scrollY;
+              wave.style.transform = `translateY(${scrollY * 0.2
+                  }px) translateX(-20%)`;
+          });
+      </script>
+      <script>
+          // Show button on scroll
+          const topBtn = document.getElementById("backToTop");
 
-        <hr class="border-light" />
-        <div class="text-center small">© Copyright 2025.</div>
-      </div>
-    </footer>
-    <button id="backToTop" title="Back to top">
-      <i class="fas fa-arrow-up"></i>
-    </button>
+          window.onscroll = function () {
+              if (
+                  document.body.scrollTop > 300 ||
+                  document.documentElement.scrollTop > 300
+              ) {
+                  topBtn.style.display = "block";
+              } else {
+                  topBtn.style.display = "none";
+              }
+          };
 
-    <script>
-      window.addEventListener("scroll", function () {
-        const wave = document.querySelector(".wave");
-        const scrollY = window.scrollY;
-        wave.style.transform = `translateY(${
-          scrollY * 0.2
-        }px) translateX(-20%)`;
-      });
-    </script>
-    <script>
-      // Show button on scroll
-      const topBtn = document.getElementById("backToTop");
+          // Scroll to top when clicked
+          topBtn.onclick = function () {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+          };
+      </script>
 
-      window.onscroll = function () {
-        if (
-          document.body.scrollTop > 300 ||
-          document.documentElement.scrollTop > 300
-        ) {
-          topBtn.style.display = "block";
-        } else {
-          topBtn.style.display = "none";
-        }
-      };
-
-      // Scroll to top when clicked
-      topBtn.onclick = function () {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      };
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/main.js"></script>
   </body>
 </html>
