@@ -3,6 +3,8 @@ document.querySelectorAll('.flip-card').forEach(card => {
         this.classList.toggle('flipped');
     });
 });
+
+
 tsParticles.load("tsparticles", {
     fullScreen: { enable: false },
     background: { color: { value: "#0d1117" } },
@@ -11,7 +13,7 @@ tsParticles.load("tsparticles", {
         number: { value: 60, density: { enable: true, area: 800 } },
         color: { value: ["#06b6d4", "#0ea5e9", "#22d3ee"] },
         shape: {
-            type: ["circle", "triangle", "square", "polygon"],
+            type: ["circle"],
             options: {
                 polygon: { sides: 5 }
             }
