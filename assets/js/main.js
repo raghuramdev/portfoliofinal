@@ -38,7 +38,7 @@ tsParticles.load("tsparticles", {
     interactivity: {
         events: {
             onHover: { enable: true, mode: "grab" },
-            onClick: { enable: true, mode: "push" }
+            onClick: { enable: true, mode: "repulse" }
         },
         modes: {
             grab: { distance: 150, links: { opacity: 0.7 } },
